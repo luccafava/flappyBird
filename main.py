@@ -16,6 +16,7 @@ background = pygame.transform.scale(background, (width, height))
 
 color = (255, 0, 0)
 
+
 startPos = (width/8, height/2)
 pipes = pygame.sprite.Group()
 player = Bird(startPos)
@@ -64,6 +65,7 @@ def main():
 
         if gets_hit:
             lose()
+
 
 if __name__ == '__main__':
     main()
